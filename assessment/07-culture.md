@@ -62,16 +62,16 @@ Part of the [Software Engineering Maturity Assessment](../ASSESSMENT.md) — spe
 
 **Why it matters:** Morale, psychological safety, and wellbeing aren't soft add-ons — they're leading indicators; teams that feel unsafe to speak up or are quietly burning out will show the damage in quality and attrition long before it shows up in a survey.
 
-**What good looks like:** People raise disagreement, mistakes, and bad news without fear of punishment, workload and burnout are actively monitored rather than assumed fine, and the team reflects real diversity of perspective and belonging rather than a single dominant voice.
+**What good looks like:** People raise disagreement, mistakes, and bad news without fear of punishment, workload and burnout are actively monitored rather than assumed fine, and DEI is practiced as equitable access to opportunity, mentorship, and fair treatment — not just a stated value with no visible outcome.
 
 **Questions to ask:**
 - When did someone last disagree with a tech lead's or manager's decision in the open, and what happened afterward?
 - How would the team find out if a teammate was quietly burning out — is anyone watching for it, or does it surface only at resignation?
 - Can you describe a mistake that was owned openly and discussed without blame, versus one that got swept under the rug?
-- Whose voice tends to dominate technical discussions, and does that match who has the most relevant context?
+- Do people from different backgrounds get equal access to high-visibility work, mentorship, and fair feedback here?
 - Is there a way to raise a concern about team culture or conduct that doesn't require going through the person you have the concern about?
 
-**Red flags:** disagreement with leadership is rare or happens only privately, never in open forums; burnout is discovered at resignation, not before; the same one or two voices dominate every technical discussion; concerns can only be raised through the person the concern is about.
+**Red flags:** disagreement with leadership is rare or happens only privately, never in open forums; burnout is discovered at resignation, not before; DEI exists on paper with no accountability or visible outcomes; concerns can only be raised through the person the concern is about.
 
 ### 7.6 Other
 
