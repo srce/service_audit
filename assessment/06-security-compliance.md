@@ -88,17 +88,17 @@ Part of the [Software Engineering Maturity Assessment](../ASSESSMENT.md) — spe
 
 ### 6.7 Vulnerability Management & Dependency Scanning
 
-**Why it matters:** New vulnerabilities are disclosed constantly in software the team didn't write; without an org-level process for finding and triaging them, exposure is discovered by an attacker instead of by the team, on their schedule instead of yours.
+**Why it matters:** Exploitable weaknesses show up across containers, base images, running infrastructure, and cloud configuration — not just application dependencies — and without an org-wide program for finding and triaging them, coverage gaps go unnoticed until an attacker finds them first.
 
-**What good looks like:** Automated scanning covers dependencies, containers, and infrastructure on a regular cadence, findings are triaged by severity with clear ownership and SLAs, and there's a documented escalation path for critical findings rather than an inbox full of unread alerts.
+**What good looks like:** Automated scanning covers every surface — container images, infrastructure, cloud configuration, running services — on a regular cadence, findings roll up to a single triage process with clear ownership and severity-based SLAs, and escalation for critical findings is documented and governed at the organization level rather than left to whichever team owns the affected system. Day-to-day dependency patching hygiene is assessed in [4.14](04-code-quality.md#414-dependency-security--updates); this item covers the organization-wide scanning and triage program.
 
 **Questions to ask:**
-- What gets scanned today — dependencies, containers, infrastructure — and on what cadence?
-- Who triages scan findings, and what's the actual time-to-remediate for a critical versus a low-severity finding?
-- Can you find a vulnerability finding that's been open for months with no action or documented risk acceptance?
-- Is there a defined SLA for critical findings, and has it ever been tested against a real one?
+- What surfaces are covered by the scanning program — containers, infrastructure, cloud config, running services — and which ones, if any, aren't?
+- Who owns the org-wide triage process, and does every team's findings feed into it, or do some teams run their own silently?
+- What's the governed SLA by severity, and can you show a critical infrastructure finding that met — or missed — it?
+- If a new scanning gap opened up (a new service, a new cloud account), how would the program notice?
 
-**Red flags:** scanning tools are configured but their output is never reviewed; the same critical finding reappears in every report with no remediation; there's no distinction between "acknowledged and accepted risk" and "nobody looked at it."
+**Red flags:** scanning exists for code dependencies but nothing covers containers, infrastructure, or cloud configuration; each team runs its own ad hoc scanning with no org-wide rollup or shared SLA; a critical infrastructure or container finding sat unactioned because no one owned triage outside the application layer.
 
 ### 6.8 Penetration Testing / Audits
 
