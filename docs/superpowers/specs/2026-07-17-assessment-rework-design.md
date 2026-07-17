@@ -71,7 +71,8 @@ Derived values in the report:
   this list is the improvement roadmap. Max value 12 (critical + absent).
 - **Category score** = `Σ(importance × state) / Σ(importance × 4)` over scored
   items, shown as a percentage: "how close you are to where you said you need
-  to be." N/A items are excluded from both sums.
+  to be." N/A items are excluded from both sums. A category where every item
+  is N/A is reported as "not assessed" rather than a number.
 
 Philosophy (README): scores show a team its own gap between importance and
 reality and track its own progress over time. They are never for comparing
