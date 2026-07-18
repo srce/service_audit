@@ -9,6 +9,7 @@ about gaps.
 |---|---|
 | [The Joel Test: 12 Steps to Better Code](joel-test.md) | 9/12 full, 3/12 partial |
 | [The Twelve-Factor Methodology](twelve-factor.md) | 5/12 full, 6/12 partial, 1/12 not covered (deliberate) |
+| [OWASP SAMM (OpenSAMM)](opensamm.md) | 6/15 full, 9/15 partial |
 
 ## Template for new mappings
 
