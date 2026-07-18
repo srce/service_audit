@@ -1,7 +1,45 @@
 # Improvement backlog
 
-Planned improvements, roughly ordered by value. Items that add or change
-assessment questions ship as a MINOR release per the [versioning policy](CHANGELOG.md).
+Planned improvements, roughly ordered by value within each section. Items that
+add or change assessment questions ship as a MINOR release per the
+[versioning policy](CHANGELOG.md).
+
+## Adoption & interview experience
+
+First-time users and full runs are the biggest friction points today: the
+framework is complete, but there is no worked example and a full interview
+covers ~80 items.
+
+- [ ] **Sample filled report** — one anonymized end-to-end report next to
+  `templates/report.md` (or under `examples/`) so teams can calibrate
+  importance/state ratings and see gap priority, category scores, and
+  recommendations in context.
+- [ ] **Lite / abbreviated profile** — a documented subset of items (or
+  category-skip guidance) for a 30–60 minute first pass. Full assessment
+  remains the default; lite is for discovery or re-checks between major runs.
+- [ ] **Scoring spreadsheet** (or simple calculator) — same item IDs as the
+  report template; auto-computes gap priority and category % so manual runs
+  do not require hand math.
+- [ ] **Web form / product shell** (later) — optional UI on top of the same
+  item IDs for guided interviews and exportable Markdown reports. Not a
+  substitute for the agent path; an alternative entry point.
+
+## Content quality
+
+The item set is coherent at v0.1.x; a pass for consistency will make agent
+interviews shorter and ratings more stable across assessors.
+
+- [ ] **Wording consistency pass** — align tone, tense, and terminology across
+  all seven category files (e.g. "Feedbacks", historical numbering fixes were
+  one-offs; scan for remaining awkward titles and uneven "What good looks
+  like" depth).
+- [ ] **Overlap / boundary review** — where adjacent items share ground
+  (e.g. 4.14 vs 6.7 dependency security, 1.8 vs 6.10 compliance, 4.13 vs 2.8
+  reviews), tighten scopes and cross-references so the same practice is not
+  scored twice without intent.
+- [ ] **Interview length audit** — count questions per item; flag items with
+  more than ~4 questions for trim or "ask only if importance ≥ 2" notes in
+  AGENT.md guidance.
 
 ## Coverage mappings to add (`coverage/`)
 
@@ -42,11 +80,17 @@ section, and remove it here.
 - [ ] 7.4: question on coaching/mentoring relationships (seed mentions
   coaching; currently unasked).
 
-## Tooling
+## Tooling & release hygiene
 
 - [ ] `scripts/bump-version.sh` — rewrite all version stamps in one go
   (currently ~12 manual locations; only the bundle picks the version up
   automatically).
+- [ ] **CI version / bundle check** — on PR: run `scripts/build-bundle.sh`
+  (or a dry-run check) so version stamps stay aligned and
+  `service-audit-full.md` is never committed stale.
+- [ ] **Cut a release for existing coverage maps** — Joel Test, Twelve-Factor,
+  OpenSAMM, and ISO 25010 mappings are in-tree under CHANGELOG `[Unreleased]`;
+  ship a PATCH (or MINOR if preferred) so consumers have a tagged baseline.
 - [ ] Rename the repository (title is already "Software Project Maturity
   Assessment"; repo slug still `service_audit`) and update the two hardcoded
   URLs in README's Quick start.
