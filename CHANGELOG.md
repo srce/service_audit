@@ -11,6 +11,7 @@ MINOR = items or questions added, PATCH = wording fixes.
 - `coverage/` directory documenting point-by-point coverage of external frameworks, starting with the Joel Test (9/12 full, 3/12 partial), plus a template for future mappings.
 - Twelve-Factor Methodology coverage mapping (5/12 full, 6/12 partial, 1 deliberately not covered).
 - OWASP SAMM (OpenSAMM) coverage mapping against SAMM v2's 15 practices (6/15 full, 9/15 partial).
+- ISO 25010 coverage mapping against the eight product quality characteristics (5/8 full, 3/8 partial), with a note on the 2023 revision's Safety characteristic.
 
 ## [0.1.1] - 2026-07-18
 
