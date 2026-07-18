@@ -87,6 +87,8 @@ teams or grading people. This replaces the current "no scores" statement.
 - Typo fixes: "13" numbering in Section 2, "Feedbacks" → "Feedback",
   "Groundrules" → "Ground Rules", "Unit-tests" → "Unit Tests", README ISO
   link spacing.
+- Item 6.7 rescoped during review to the org-wide vulnerability scanning/triage program, with a cross-reference handing day-to-day dependency hygiene to 4.14.
+- Item 7.5 explicitly covers DEI (question and red flag added during review).
 
 ## AGENT.md interview flow
 

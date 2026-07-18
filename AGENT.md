@@ -23,7 +23,7 @@ Ask, one at a time:
 
 For each chosen category, in order, read its file in `assessment/` and go item by item:
 
-1. State the item's title and its one-line "why it matters".
+1. State the item's title and its "why it matters".
 2. Ask for **importance**: 1 Low, 2 Medium, 3 Critical, or N/A (record the reason). If N/A, move to the next item.
 3. Interview using the item's "Questions to ask". Skip questions already answered implicitly. For importance 1, ask at most one question.
 4. Compare answers against "What good looks like" and "Red flags", then **propose a current-state rating** — 0 Absent, 1 Ad-hoc, 2 Defined, 3 Managed, 4 Optimizing — with a one-sentence rationale. Ask the person to confirm or correct. Record the confirmed value and a one-line note.

@@ -12,7 +12,7 @@
 
 Importance: 1 Low, 2 Medium, 3 Critical, N/A skipped (reason recorded).
 Current state: 0 Absent, 1 Ad-hoc, 2 Defined, 3 Managed, 4 Optimizing.
-Gap priority = importance × (4 − state), max 12. Category score = Σ(importance × state) / Σ(importance × 4), as a percentage. A category where every item is N/A is "not assessed".
+Gap priority = importance × (4 − state), max 12. Category score = Σ(importance × state) / Σ(importance × 4), as a percentage. A category where every item is N/A is "not assessed". Top gaps are sorted by gap priority descending, ties broken by importance. Categories excluded at setup are marked "skipped" — distinct from "not assessed", which means every item was rated N/A.
 
 ## Summary
 

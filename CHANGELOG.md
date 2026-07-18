@@ -17,6 +17,7 @@ MINOR = items or questions added, PATCH = wording fixes.
 - Split `ASSESSMENT.md` into per-category files under `assessment/`; `ASSESSMENT.md` is now the index.
 - Moved "Team Health & Culture" from Processes (2.14) to Culture (7.5).
 - Scoped 1.8 Compliance & Legal to product obligations; cross-referenced 6.10 for operations.
+- Rescoped 6.7 to the org-wide vulnerability scanning and triage program; day-to-day dependency patching hygiene cross-referenced to 4.14.
 
 ### Fixed
 - Numbering and wording defects ("13" item, "Feedbacks", "Groundrules", "Unit-tests", README link spacing).
