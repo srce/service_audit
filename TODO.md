@@ -5,6 +5,10 @@ assessment questions ship as a MINOR release per the [versioning policy](CHANGEL
 
 ## Coverage mappings to add (`coverage/`)
 
+When a mapping ships, list it in the [coverage index](coverage/README.md)
+table and in README's [Related frameworks](README.md#related-frameworks)
+section, and remove it here.
+
 - [ ] **DORA metrics / Accelerate** — the four key delivery metrics
   (deployment frequency, lead time, change failure rate, time to restore).
   Maps onto 5.9, 5.10, 5.12, 5.13. The most influential modern framework we
