@@ -5,6 +5,11 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 MAJOR = items removed/renumbered/restructured (breaks report comparability),
 MINOR = items or questions added, PATCH = wording fixes.
 
+## [Unreleased]
+
+### Added
+- `coverage/` directory documenting point-by-point coverage of external frameworks, starting with the Joel Test (9/12 full, 3/12 partial), plus a template for future mappings.
+
 ## [0.1.1] - 2026-07-18
 
 ### Changed
