@@ -1,24 +1,32 @@
 # Software Engineering Maturity Assessment
 
-## Overview
+**Spec version: 0.1.0**
 
-This assessment was created to help engineering teams reach higher levels of excellence and maturity in their projects.
-It does not assign scores or formal ratings. Instead, it highlights weak or risky areas that deserve attention, providing engineers with clarity on where improvement may be beneficial.
+A practical framework for assessing the engineering maturity of a software team — by humans, or by an LLM agent interviewing the team.
 
-The goal is not to force changes, but to support teams in making informed, thoughtful decisions.
+## Philosophy
 
-## Other
+Every team is different, so the assessment scores two things: how **important** each practice is for *your* team, and where you **currently stand**. The gap between the two is your improvement roadmap. Scores track a team's own progress over time — they are never for comparing teams or grading people.
+
+## How to use it
+
+1. Read [ASSESSMENT.md](ASSESSMENT.md) — the index, scoring scales, and links to the seven category files in [assessment/](assessment/).
+2. Run the assessment:
+   - **Manually:** walk the categories with your team and fill in [templates/report.md](templates/report.md).
+   - **With an LLM:** give your AI assistant [AGENT.md](AGENT.md) and the `assessment/` files; it interviews the team one question at a time and produces the report.
+3. Re-run it periodically (e.g. every 6–12 months) with the same spec version to track progress.
+
+## Versioning
+
+The spec follows [SemVer](https://semver.org/): MAJOR versions change or remove items (reports stop being comparable), MINOR versions add items or questions, PATCH versions fix wording. See [CHANGELOG.md](CHANGELOG.md). Reports record the spec version they were produced with.
+
+## Related frameworks
 
 - [The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 - [The Twelve-Factor Methodology](https://www.12factor.net/)
 - [Open Software Assurance Maturity Model (OpenSAMM)](https://owaspsamm.org/)
-- [ISO 25010 Software Quality Model ](https://iso25000.com/en/iso-25000-standards/iso-25010)
+- [ISO 25010 Software Quality Model](https://iso25000.com/en/iso-25000-standards/iso-25010)
 
 ## License
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-This work is licensed under the Creative Commons Attribution 4.0 International License.
-
-Full license text:
-https://creativecommons.org/licenses/by/4.0/legalcode
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode) — see [LICENSE](LICENSE).

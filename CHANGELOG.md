@@ -5,7 +5,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 MAJOR = items removed/renumbered/restructured (breaks report comparability),
 MINOR = items or questions added, PATCH = wording fixes.
 
-## [Unreleased]
+## [0.1.0] - 2026-07-18
 
 ### Added
 - Structured item blocks (why it matters, what good looks like, questions to ask, red flags) for all categories.
