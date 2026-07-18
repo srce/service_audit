@@ -1,0 +1,10 @@
+# AI-agent scratch directories
+.claude/
+.superpowers/
+
+# OS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
