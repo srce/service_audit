@@ -10,9 +10,12 @@ A structured framework for auditing the maturity of a software project. The team
 
 ```bash
 git clone https://github.com/srce/service_audit.git
-cd your-project
-claude "Read ../service_audit/AGENT.md and run the assessment interview with me"
+cd service_audit
+claude "Read AGENT.md and run the assessment interview with me"
 ```
+
+To assess a different repository, run the same `claude` command from that
+repository and point it at this checkout's `AGENT.md`.
 
 **With a web chat (claude.ai, ChatGPT, etc.):** attach [service-audit-full.md](service-audit-full.md) — the whole assessment in one file — to a conversation and say "Run this assessment with me." To download it directly:
 
