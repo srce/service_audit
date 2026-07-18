@@ -12,6 +12,7 @@ MINOR = items or questions added, PATCH = wording fixes.
 - Importance/state scoring model with gap priority and category scores.
 - `AGENT.md` LLM interview prompt and `templates/report.md` report template.
 - LICENSE file (CC BY 4.0), this changelog, versioning policy.
+- Quick start instructions and single-file bundle `service-audit-full.md` (built by `scripts/build-bundle.sh`) for attaching the whole assessment to a web-based LLM chat.
 
 ### Changed
 - Split `ASSESSMENT.md` into per-category files under `assessment/`; `ASSESSMENT.md` is now the index.

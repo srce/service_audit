@@ -4,6 +4,24 @@
 
 A practical framework for assessing the engineering maturity of a software team — by humans, or by an LLM agent interviewing the team.
 
+## Quick start
+
+**With a coding agent (Claude Code, Cursor, etc.):**
+
+```bash
+git clone https://github.com/srce/service_audit.git
+cd your-project
+claude "Read ../service_audit/AGENT.md and run the assessment interview with me"
+```
+
+**With a web chat (claude.ai, ChatGPT, etc.):** attach [service-audit-full.md](service-audit-full.md) — the whole assessment in one file — to a conversation and say "Run this assessment with me." To download it directly:
+
+```bash
+curl -O https://raw.githubusercontent.com/srce/service_audit/main/service-audit-full.md
+```
+
+The agent interviews your team one question at a time and produces a report you can keep next to your repo and compare against future runs.
+
 ## Philosophy
 
 Every team is different, so the assessment scores two things: how **important** each practice is for *your* team, and where you **currently stand**. The gap between the two is your improvement roadmap. Scores track a team's own progress over time — they are never for comparing teams or grading people.
@@ -19,6 +37,8 @@ Every team is different, so the assessment scores two things: how **important** 
 ## Versioning
 
 The spec follows [SemVer](https://semver.org/): MAJOR versions change or remove items (reports stop being comparable), MINOR versions add items or questions, PATCH versions fix wording. See [CHANGELOG.md](CHANGELOG.md). Reports record the spec version they were produced with.
+
+After changing any assessment content, regenerate the single-file bundle with `./scripts/build-bundle.sh`.
 
 ## Related frameworks
 
