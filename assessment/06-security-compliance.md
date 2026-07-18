@@ -1,6 +1,6 @@
 # 6. Security & Compliance
 
-Part of the [Software Engineering Maturity Assessment](../ASSESSMENT.md) — spec version 0.1.0.
+Part of the [Software Project Maturity Assessment](../ASSESSMENT.md) — spec version 0.1.1.
 
 ### 6.1 Security Requirements
 

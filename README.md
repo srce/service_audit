@@ -1,8 +1,8 @@
-# Software Engineering Maturity Assessment
+# Software Project Maturity Assessment
 
-**Spec version: 0.1.0**
+**Spec version: 0.1.1**
 
-A practical framework for assessing the engineering maturity of a software team — by humans, or by an LLM agent interviewing the team.
+A structured framework for auditing the maturity of a software project. The team first sets its own bar — how important each engineering practice is for this project — then measures where it currently stands against that bar. The gap between the two becomes a scored, prioritized improvement roadmap. The audit can be conducted manually by an assessor, or an LLM agent can take the assessor's role: it interviews the team and produces the report.
 
 ## Quick start
 

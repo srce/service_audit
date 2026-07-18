@@ -1,10 +1,10 @@
-# Engineering Maturity Assessment Report
+# Software Project Maturity Assessment Report
 
 | | |
 |---|---|
 | **Team / Product** | {{TEAM_NAME}} |
 | **Date** | {{DATE}} |
-| **Spec version** | 0.1.0 |
+| **Spec version** | 0.1.1 |
 | **Participants** | {{NAMES_AND_ROLES}} |
 | **Categories assessed** | {{LIST_OR_ALL}} |
 

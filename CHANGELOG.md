@@ -5,6 +5,12 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 MAJOR = items removed/renumbered/restructured (breaks report comparability),
 MINOR = items or questions added, PATCH = wording fixes.
 
+## [0.1.1] - 2026-07-18
+
+### Changed
+- Project title renamed to "Software Project Maturity Assessment" (was "Software Engineering Maturity Assessment"); index and report titles aligned.
+- README description rewritten around the set-your-own-bar → measure → gap-roadmap flow and the assessor-or-LLM-agent choice.
+
 ## [0.1.0] - 2026-07-18
 
 ### Added

@@ -1,6 +1,6 @@
 # 4. Code & Quality
 
-Part of the [Software Engineering Maturity Assessment](../ASSESSMENT.md) — spec version 0.1.0.
+Part of the [Software Project Maturity Assessment](../ASSESSMENT.md) — spec version 0.1.1.
 
 ### 4.1 Relevance of Codebase
 

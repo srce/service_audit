@@ -1,6 +1,6 @@
-# Engineering Assessment Guide
+# Software Project Maturity Assessment
 
-**Spec version: 0.1.0** — see [CHANGELOG.md](CHANGELOG.md) for the versioning policy.
+**Spec version: 0.1.1** — see [CHANGELOG.md](CHANGELOG.md) for the versioning policy.
 
 This guide evaluates software engineering maturity across seven categories. Each item has a stable ID (e.g. `4.8`), an explanation of why it matters, what good looks like, questions to ask, and red flags. Items live in per-category files:
 
