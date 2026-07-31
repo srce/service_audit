@@ -60,7 +60,21 @@ How this assessment covers each framework is documented point-by-point in [cover
 - [OWASP SAMM (OpenSAMM)](https://owaspsamm.org/) ([coverage](coverage/opensamm.md))
 - [ISO 25010 Software Quality Model](https://iso25000.com/en/iso-25000-standards/iso-25010) ([coverage](coverage/iso-25010.md))
 
-Planned mappings (DORA/Accelerate, AWS Well-Architected, CMMI, SPACE) are tracked in [TODO.md](TODO.md).
+Planned mappings (DORA/Accelerate, AWS Well-Architected, CMMI, SPACE) are tracked in [the `area:coverage` issues](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Acoverage).
+
+## Roadmap
+
+Planned work lives in [GitHub issues](https://github.com/srce/service_audit/issues),
+grouped by area label and by release milestone:
+
+- [`area:adoption`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Aadoption): worked examples, a lite profile, scoring tools
+- [`area:content`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Acontent): item wording, overlap, interview length
+- [`area:coverage`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Acoverage): mappings to other frameworks
+- [`area:tooling`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Atooling): scripts, CI, releases
+
+Issues labelled `spec-change` alter the assessment items themselves and ship as a
+MINOR or MAJOR release. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to propose
+one.
 
 ## License
 
