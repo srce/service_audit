@@ -1,7 +1,7 @@
 name: Assessment item proposal
 description: Propose a new assessment item, or a new question inside an existing item.
 title: "[proposal] "
-labels: ["proposal", "spec-change"]
+labels: ["proposal", "spec-change", "area:content"]
 body:
   - type: markdown
     attributes:
@@ -17,11 +17,11 @@ body:
       options:
         - "1. Product & Vision"
         - "2. Processes & Collaboration"
-        - "3. Architecture & Design"
-        - "4. Code Quality"
-        - "5. Practices & Delivery"
+        - "3. Architecture & Systems Design"
+        - "4. Code & Quality"
+        - "5. Engineering Practices & Delivery"
         - "6. Security & Compliance"
-        - "7. Culture"
+        - "7. Culture & External Factors"
         - "Not sure"
     validations:
       required: true

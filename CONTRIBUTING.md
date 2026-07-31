@@ -12,24 +12,26 @@ own reports across runs. That only works if item numbering is stable, so:
 - **MINOR** adds an item or a question. Existing numbering is untouched.
 - **PATCH** fixes wording without changing what is being asked.
 
-Anything that touches the files in `assessment/` gets the `spec-change` label and
-needs agreement on the release impact before the PR is written. That is what the
-"Assessment item proposal" issue form is for.
+Anything that changes what an item asks, or how items are numbered, gets the
+`spec-change` label and needs agreement on the release impact before the PR is
+written. That is what the "Assessment item proposal" issue form is for. Wording
+fixes inside `assessment/` that leave the question unchanged are PATCH work and
+need no proposal.
 
 ## Proposing an assessment item or question
 
 Open an issue with the **Assessment item proposal** form. The two fields that
 decide the outcome are "why current items do not cover it" and "what good looks
-like". Duplicating ground an existing item already covers is the most common
-reason a proposal is turned down, so name the closest existing items and say what
-they miss.
+like". Duplicating an existing item is the most common reason a proposal is
+turned down, so name the closest existing items and say what they miss.
 
 Accepted proposals get a milestone. Only then is a PR useful.
 
 ## Everything else
 
 Documentation fixes, script bugs, and new coverage mappings do not need a
-proposal. Open an issue with the general form, or send a PR directly.
+proposal. Open an issue with the **Bug, docs fix, or coverage mapping** form, or
+send a PR directly.
 
 ## Before you send a PR
 
@@ -41,8 +43,9 @@ regenerate the single-file bundle:
 ```
 
 The script refuses to build if the spec version is missing from any file it
-bundles, which is the check that keeps version stamps aligned. Commit the
-regenerated `service-audit-full.md` along with your change.
+checks, which includes `ASSESSMENT.md` and the `coverage/` mappings as well as
+the bundled files. That is the check that keeps version stamps aligned. Commit
+the regenerated `service-audit-full.md` along with your change.
 
 ## Picking something up
 
