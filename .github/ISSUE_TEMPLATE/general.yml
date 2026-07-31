@@ -1,0 +1,21 @@
+name: Bug, docs fix, or coverage mapping
+description: Anything that does not change the assessment items themselves.
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of change is this?
+      options:
+        - "Documentation fix"
+        - "Bug in a script or the bundle"
+        - "New coverage mapping for another framework"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Details
+      description: What is wrong, or what should be added? Link the files involved.
+    validations:
+      required: true

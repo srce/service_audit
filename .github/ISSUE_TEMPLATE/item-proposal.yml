@@ -1,0 +1,63 @@
+name: Assessment item proposal
+description: Propose a new assessment item, or a new question inside an existing item.
+title: "[proposal] "
+labels: ["proposal", "spec-change"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Changes to assessment items affect the spec version and whether existing
+        reports stay comparable, so they get more scrutiny than a docs fix.
+        See CONTRIBUTING.md for the versioning rule.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which of the seven categories does this belong to?
+      options:
+        - "1. Product & Vision"
+        - "2. Processes & Collaboration"
+        - "3. Architecture & Design"
+        - "4. Code Quality"
+        - "5. Practices & Delivery"
+        - "6. Security & Compliance"
+        - "7. Culture"
+        - "Not sure"
+    validations:
+      required: true
+  - type: input
+    id: item
+    attributes:
+      label: Existing item number
+      description: If this adds a question to an item that already exists, give its number (for example 5.8). Leave blank for a brand new item.
+  - type: textarea
+    id: practice
+    attributes:
+      label: The practice
+      description: What should the assessment ask about?
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Why current items do not cover it
+      description: Point at the closest existing items and explain what they miss. Proposals that duplicate an existing item are the most common reason for rejection.
+    validations:
+      required: true
+  - type: textarea
+    id: good
+    attributes:
+      label: What good looks like
+      description: Describe the practice at the top of the 0-4 scale, the way existing items do.
+    validations:
+      required: true
+  - type: dropdown
+    id: release
+    attributes:
+      label: Release impact
+      options:
+        - "MINOR: adds an item or question, existing numbering unchanged"
+        - "MAJOR: changes or removes an existing item, reports stop being comparable"
+        - "Not sure"
+    validations:
+      required: true
