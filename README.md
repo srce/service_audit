@@ -56,6 +56,7 @@ After changing any assessment content, regenerate the single-file bundle with `.
 How this assessment covers each framework is documented point-by-point in [coverage/](coverage/).
 
 - [The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) ([coverage](coverage/joel-test.md))
+- [The Agile Manifesto](https://agilemanifesto.org/) ([coverage](coverage/agile-manifesto.md))
 - [The Twelve-Factor Methodology](https://www.12factor.net/) ([coverage](coverage/twelve-factor.md))
 - [OWASP SAMM (OpenSAMM)](https://owaspsamm.org/) ([coverage](coverage/opensamm.md))
 - [ISO 25010 Software Quality Model](https://iso25000.com/en/iso-25000-standards/iso-25010) ([coverage](coverage/iso-25010.md))
