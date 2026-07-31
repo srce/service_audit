@@ -68,9 +68,9 @@ Planned work lives in [GitHub issues](https://github.com/srce/service_audit/issu
 grouped by area label and by release milestone:
 
 - [`area:adoption`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Aadoption): worked examples, a lite profile, scoring tools
-- [`area:content`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Acontent): item wording, overlap, interview length
+- [`area:content`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Acontent): item wording and overlap, plus new items and questions for the next release
 - [`area:coverage`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Acoverage): mappings to other frameworks
-- [`area:tooling`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Atooling): scripts, CI, releases
+- [`area:tooling`](https://github.com/srce/service_audit/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%3Atooling): scripts, CI, releases, repo admin
 
 Issues labelled `spec-change` alter the assessment items themselves and ship as a
 MINOR or MAJOR release. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to propose
